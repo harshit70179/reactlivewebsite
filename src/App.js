@@ -16,9 +16,9 @@ function App() {
                 <BrowserRouter>
                     <Header/>
                     <Routes>
-                        <Route path="/" element={<Home />}></Route>
-                        <Route path="abc/:id" element={<Viewinfo />}></Route>
-                        <Route path="/shoppingcart" element={<Shoppingcart/>}></Route>
+                        <Route path="reactlivewebsite/" element={<Home />}></Route>
+                        <Route path="reactlivewebsite/abc/:id" element={<Viewinfo />}></Route>
+                        <Route path="reactlivewebsite/shoppingcart" element={<Shoppingcart/>}></Route>
                     </Routes>
                     <Footer/>
                 </BrowserRouter>
